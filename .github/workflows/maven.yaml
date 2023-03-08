@@ -49,4 +49,4 @@ jobs:
     - name: Build Container image
       run: docker build -t dip97/${{ secrets.DOCKER_REPO }}:latest .
     - name: Publish Docker image
-      run: docker push dip97/${{ secrets.DOCKER_REPO }
+      run: docker push dip97/${{ secrets.DOCKER_REPO }}
